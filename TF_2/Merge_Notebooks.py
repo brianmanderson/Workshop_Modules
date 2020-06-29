@@ -3,7 +3,7 @@ import io, os
 
 
 def merge_notebooks_function(path_to_notebooks='.',notebook_paths=['.\\Download_Data_Template.ipynb','.\\DeepBox.ipynb',
-                                             '.\\Data_Curation.ipynb','.\\Liver_Model.ipynb'],
+                                                                   '.\\Data_Curation.ipynb','.\\Liver_Model.ipynb'],
                              notebook_output_path=os.path.join('.','Click_Me.ipynb')):
     '''
     :param path_to_notebooks: Base_dir, rather unneeded
